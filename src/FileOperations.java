@@ -17,17 +17,14 @@ public class FileOperations {
 			
 			if (user_option == 1) {
 				CreateFile createF = new CreateFile();
-				menu.menuHead();
 				createF.addfile();				
 				
 			} else if (user_option == 2) {
 				DeleteFile delF = new DeleteFile();
-				menu.menuHead();
 				delF.delF();
 				
 			} else if (user_option == 3) {
 				SearchFiles searchF = new SearchFiles();
-				menu.menuHead();
 				searchF.searchDisplay();
 			} 
 			

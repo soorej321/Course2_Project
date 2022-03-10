@@ -46,7 +46,7 @@ public class DeleteFile {
     		}
     		
     		if (count == 0) {
-    			System.out.println("\nNo files found to be deleted.");
+    			System.out.println("\n(FNF) No files were found with entered deletion criteria.");
     		}else {
     			System.out.println("\nPlease confirm if you want to delete(Y/N)");
     			user_val = sc.nextLine();

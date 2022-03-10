@@ -21,10 +21,14 @@ public class CreateFile {
 	        File newfile = new File(MainClass.dirPath + "\\" + user_val );
 	        
 	        try {
-	            if(newfile.createNewFile()) {
+	        	if (user_val.trim() == "" ) {
+	        		System.out.println("No file name entered");	        		
+	        	} else if (newfile.exists()) {
+	            	System.out.println("File already exists");
+	            } else if(newfile.createNewFile()) {
 	            	System.out.println("File Created");	
 	            } else {
-	            	System.out.println("File already exists");
+	            	System.out.println("Error in creating file. Verify name.");
 	            }
 	        } catch (IOException ioe) {
 	            System.out.println("Error while creating file.");

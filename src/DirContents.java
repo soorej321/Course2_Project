@@ -14,8 +14,13 @@ public class DirContents {
 		
 		System.out.println("\nContents of directory - " + MainClass.dirPath);
 		
-		for (File object:dirContent) {
-			System.out.println(object.getName());
+		if (dirContent.length == 0){
+			System.out.println("Empty Directory. No contents to display.");
+			
+		} else {
+			for (File object:dirContent) {
+				System.out.println(object.getName());
+			}
 		}
 		
 		System.out.println("\nPress enter to return to menu.");

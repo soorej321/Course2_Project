@@ -36,6 +36,10 @@ public class UserInput {
 		String user_val = " ";
 		@SuppressWarnings("resource")
 		Scanner sc1 = new Scanner(System.in);
+		System.out.println("*****************************************");
+		System.out.println("*      Welcome to Lockedme.com          *");
+		System.out.println("*****************************************");
+		System.out.println("Developer-Soorej Balan");
 		System.out.println("\n\n Please enter the root directory:");
 		while (i == 0)
 	    {			

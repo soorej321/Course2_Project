@@ -46,7 +46,7 @@ public class SearchFiles {
     		}
     		
     		if (count == 0) {
-    			System.out.println("\nNo files were found with entered search criteria.");
+    			System.out.println("\n(FNF) No files were found with entered search criteria.");
     		}
     		
         	i++;
